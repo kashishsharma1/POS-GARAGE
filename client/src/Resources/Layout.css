@@ -1,0 +1,103 @@
+#components-layout-demo-side .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+background: #fff;
+box-shadow: 0 0 3px #cccc;
+border-radius: 5px;
+}
+
+.site-layout{
+    padding: 15px;
+    margin-left: 10px;
+    background-color: rgb(251, 151, 2);
+    border-radius: 10px;
+}
+
+.ant-layout-sider{
+    height: 95vh;
+    border-radius: 10px;
+    padding: 6px 0;
+}
+
+.ant-layout-sider-children{
+    padding: 15px;
+    height: 95vh;
+}
+
+.ant-layout-has-sider{
+    padding: 15px !important;
+}
+
+.anticon svg{
+    height: 25x;
+    width: 25px;
+    font-size: 20px;
+}
+
+.ant-layout-header{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.logo h3{
+    color: rgb(251, 151, 2);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Love Ya Like A Sister', cursive;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.ant-menu-item{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 15px;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: rgb(251, 151, 2);
+    border-radius: 10px;
+}
+
+.cart-count{
+    cursor: pointer;
+}
+
+.spinner{
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+}
+
+.spinner-grow{
+    height: 100px;
+    width: 100px;
+}
+
+.ant-layout-content{
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+Button{
+    background-color: rgb(45, 72, 6) !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.ant-modal-close-x{
+    background-color: white !important;
+    color: black !important;
+}

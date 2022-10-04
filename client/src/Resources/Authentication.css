@@ -1,0 +1,23 @@
+.authentication {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./Auth.svg');
+    background-size: 100%;
+}
+.ant-row{
+    width: 100%;
+    justify-content: center !important;
+}
+
+.authentication form{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px ;
+}
+
+h1{
+    color: orange;
+    font-family: 'Love Ya Like A Sister', cursive;
+    justify-content: center !important;
+}
